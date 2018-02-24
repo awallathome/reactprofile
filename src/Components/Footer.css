@@ -1,0 +1,36 @@
+
+
+#copyright {
+  height: 60px;
+  color: #444;
+  margin-left: 50px;
+  padding-top: 20px;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+.page-footer {
+  background-color: white;
+}
+
+#signature {
+  float: right;
+  width: 175px;
+  height: 50px;
+  margin-right: 5%;
+  margin-top: 5px;
+}
+
+#footer-copyright {
+  background-color: white;
+
+}
+
+h4 {
+  color: #444;
+}

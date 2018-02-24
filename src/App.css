@@ -2,6 +2,11 @@
   font-family: Montserrat;
 }
 
+.App {
+   min-height: 100%;
+
+}
+
 body {
   background: #eee;
 }
@@ -90,43 +95,6 @@ nav .brand-logo {
     width: 100%;
 }
 
-#copyright {
-  color: #444;
-  margin-left: 50px;
-}
-
-.icon-block {
-  padding: 0 15px;
-}
-.icon-block .material-icons {
-  font-size: inherit;
-}
-
-.page-footer {
-  margin: 0;
-  background-color: white;
-
-}
-
-.footer-container {
-  color: white;
-  width: 95%;
-}
-
-#signature {
-  float: right;
-  width: 175px;
-  height: 60px;
-  padding: 0;
-}
-
-#footer-copyright {
-  background-color: white;
-}
-
-h4 {
-  color: #444;
-}
 
 .button {
   color: #444;
