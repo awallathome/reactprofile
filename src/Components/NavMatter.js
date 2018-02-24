@@ -7,7 +7,7 @@ class Navigator extends Component {
   <div className="nav-wrapper container">
     <ul className="toprow">
       <li>
-        <a href="index.html" className="brand-logo">
+        <a href="/#" className="brand-logo">
           <span id="logo-container">Adam Wallis</span>
         </a>
       </li>

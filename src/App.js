@@ -15,9 +15,8 @@ class App extends Component {
         <Router>
           <div>
             <Switch>
-              <Route exact path="/index.html" component={FrontMatter} />
-              <Route exact path="" component={FrontMatter} />
-              <Route exact path="recentprojects" component={RecentProjects} />
+              <Route exact path="/" component={FrontMatter} />
+              <Route exact path="/recentprojects" component={RecentProjects} />
             </Switch>
           </div>
         </Router>
