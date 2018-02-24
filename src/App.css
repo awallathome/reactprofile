@@ -58,15 +58,12 @@ nav .brand-logo {
 
 .toprow span {
   color: #444;
-  
   font-size: 20px;
 }
 
 .toprow :hover {
   color: #854;
   height: 64px;
-  -webkit-transform: scale(1.1);
-	transform: scale(1.1);
   transition: 1s;
   text-decoration: none;
 

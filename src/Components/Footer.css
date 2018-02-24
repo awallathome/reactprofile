@@ -34,7 +34,7 @@
   position: fixed;
   bottom: 0pt;
   left: 0pt;
-
+  border-radius: 5px; 
 }
 
 h4 {

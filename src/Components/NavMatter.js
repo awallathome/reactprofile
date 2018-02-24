@@ -12,7 +12,7 @@ class Navigator extends Component {
         </a>
       </li>
       <li id="recentprojects">
-        <a href="portfolio.html">
+        <a href="recentprojects">
           <span>Recent Projects</span>
         </a>
       </li>
