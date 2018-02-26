@@ -14,30 +14,70 @@ class RecentProjects extends Component {
   render() {
     return <div className="container">
         <div className="row">
-          <div className="col-xs-12">
+          <div className="col-sm-12">
+            <h1>Lab Locator</h1>
+          </div>
+          <div className="col-sm-6">
+            <img src={lablocator1} alt=" unreachable" />
+            <h4>
+              The user enters their starting location and a prefered radius
+              for the search.
+            </h4>
+          </div>
+          <div className="col-sm-6">
+            <img src={lablocator2} alt=" unreachable" />
+            <h4>
+              Lab Locator offers a list of all labs that offer blood work in
+              their network within the chosen radius.
+            </h4>
+          </div>
+        </div>
+
+        <div className="row">
+          <div className="col-sm-6">
+            <img src={lablocator3} alt=" unreachable" />
+            <h4>
+              There is an admin login for adding/deleting labs from batabase
+              or for editing information of existing labs. This page
+              previously employed firebase authentication, but I am
+              currently looking for more interesting log-in options.{" "}
+            </h4>
+          </div>
+          <div className="col-sm-6">
+            <img src={lablocator4} alt=" unreachable" />
+            <h4>
+              The admin page, inaccessible without logging in, offers easy
+              editing abilities and is scalable for larger and smaller
+              networks.
+            </h4>
+          </div>
+        </div>
+
+        <div className="row">
+          <div className="col-sm-12">
             <h1>On the Fly</h1>
           </div>
-          <div className="col-xs-6">
+          <div className="col-sm-6">
             <img src={onthefly1} alt=" unreachable" />
             <h4>
               The user is immediately joined to a unique chat room and
               prompted to enter a name they wish to use.
             </h4>
           </div>
-          <div className="col-xs-6">
+          <div className="col-sm-6">
             <img src={onthefly2} alt=" unreachable" />
             <h4>The chat area defaults to a decoy conversation.</h4>
           </div>
         </div>
         <div className="row">
-          <div className="col-xs-6">
+          <div className="col-sm-6">
             <img src={onthefly3} alt=" unreachable" />
             <h4>
               Toggling with the 'esc' key, the can switch to an actual
               conversation.
             </h4>
           </div>
-          <div className="col-xs-6">
+          <div className="col-sm-6">
             <img src={onthefly4} alt=" unreachable" />
             <h4>
               The chat room can be created in advance of any planned meeting
@@ -48,7 +88,7 @@ class RecentProjects extends Component {
         </div>
 
         <div className="row">
-          <div className="col-xs-6">
+          <div className="col-sm-6">
             <img src={onthefly5} alt=" unreachable" />
             <h4>
               The Delete Chat button offers the option to remove the
@@ -57,48 +97,7 @@ class RecentProjects extends Component {
             </h4>
           </div>
         </div>
-
-        <div className="row">
-          <div className="col-xs-12">
-            <h1>Lab Locator</h1>
-          </div>
-          <div className="col-xs-6">
-            <img src={lablocator1} alt=" unreachable" />
-            <h4>
-              The user enters their starting location and a prefered radius
-              for the search.
-            </h4>
-          </div>
-          <div className="col-xs-6">
-            <img src={lablocator2} alt=" unreachable" />
-            <h4>
-              Lab Locator offers a list of all labs that offer blood work in
-              their network within the chosen radius.
-            </h4>
-          </div>
-        </div>
-
-        <div className="row">
-          <div className="col-xs-6">
-            <img src={lablocator3} alt=" unreachable" />
-            <h4>
-              There is an admin login for adding/deleting labs from batabase
-              or for editing information of existing labs. This page
-              previously employed firebase authentication, but I am
-              currently looking for more interesting log-in options.{" "}
-            </h4>
-          </div>
-          <div className="col-xs-6">
-            <img src={lablocator4} alt=" unreachable" />
-            <h4>
-              The admin page, inaccessible without logging in, offers easy
-              editing abilities and is scalable for larger and smaller
-              networks.
-            </h4>
-          </div>
-        </div>
       </div>;
-
   }
 };
 

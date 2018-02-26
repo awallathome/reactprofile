@@ -2,10 +2,9 @@
   font-family: Montserrat;
 }
 
-
-
 body {
   background: #eee;
+  background-image: url('./Components/Images/crosslines/crosslines@2X.png');
 }
 
 img {
@@ -90,6 +89,9 @@ nav .brand-logo {
     width: 100%;
 }
 
+.sandwiches {
+  display: none;
+}
 
 .button {
   color: #444;
@@ -104,7 +106,7 @@ nav .brand-logo {
   .toprow {
     position: center;
     font-size: 15px;
-    width: 90%;
+    width: 100%;
   }
   
   #index-banner .section {
@@ -183,7 +185,31 @@ nav .brand-logo {
   }
 
   #recentprojects {
-    margin-left: 0;
+    display: none;
+  }
+
+  #resume {
+    display: none;
+  }
+
+  .sandwiches {
+    display: block;
+    width: 25px;
+    height: 2px;
+    background-color: black;
+    margin: 6px 0 6px 80%;
+    
+  }
+
+  .toprow :hover {
+    color: black;
+    height: 2px;
+    transition: 0s;
+    text-decoration: none;
+  }
+  
+  .sandwichesMenu {
+    margin-top: 20px;
   }
 
   .toprow span {

@@ -1,24 +1,15 @@
 import React, { Component } from "react";
-import './FrontMatter.css';
 import chairs from "./Images/chairs.jpg";
 import bricks from "./Images/bricks.jpg";
 import umbrella from "./Images/umbrella.jpg";
 import { ParallaxProvider } from "react-scroll-parallax";
 import { Parallax } from 'react-scroll-parallax';
 
-const sectionStyle = {
-  width: "100%",
-  height: "300px",
-  backgroundImage: "url(" + { umbrella } + ")"
-}
-
 class FrontMatter extends Component {
   render () {
-    return <div style={sectionStyle}>
+    return <div >
         
         <ParallaxProvider>
-
-
           <Parallax className="parallax" offsetYMax={100} offsetYMin={-20} slowerScrollRate>
             <div className="container">
               <div className="section">
