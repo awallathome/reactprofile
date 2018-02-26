@@ -1,0 +1,41 @@
+@media only screen and (max-width : 710px) {
+
+    /*sandwich lines*/
+    .sandwiches {
+        display: block;
+        width: 25px;
+        height: 2px;
+        background-color: black;
+        margin: 6px 0;  
+    }
+    
+    /*entire sandwich icon*/
+    .sandwichesMenu {
+        margin-top: 20px;
+        width: 200px;
+        float: right;
+    }
+
+    /*sandwich links*/
+    .sandwichItems {
+        padding: 0;
+        display: block;
+        text-align: left;
+        margin-top: 20px;
+        height: 25px;
+    }
+
+    span {
+        display: block;
+        background-color: brown;
+        padding: 0;
+    }
+
+    .sandwichItems :hover {
+        color: black;
+        height: 25px;
+        transition: 1s;
+        text-decoration: none;
+    }
+
+}

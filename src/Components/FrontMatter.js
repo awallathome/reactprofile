@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import chairs from "./Images/chairs.jpg";
 import bricks from "./Images/bricks.jpg";
-import umbrella from "./Images/umbrella.jpg";
+// import umbrella from "./Images/umbrella.jpg";
 import { ParallaxProvider } from "react-scroll-parallax";
 import { Parallax } from 'react-scroll-parallax';
 

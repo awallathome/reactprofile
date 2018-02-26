@@ -60,7 +60,7 @@ nav .brand-logo {
   font-size: 20px;
 }
 
-.toprow :hover {
+li :hover {
   color: #854;
   height: 64px;
   transition: 1s;
@@ -192,28 +192,19 @@ nav .brand-logo {
     display: none;
   }
 
-  .sandwiches {
-    display: block;
-    width: 25px;
-    height: 2px;
-    background-color: black;
-    margin: 6px 0 6px 80%;
+  li, a :hover {
     
+    height: 2px;
+    transition: 0s;
+    
+  }
+ 
+  .toprow span {
+    font-size: 14px;
   }
 
   .toprow :hover {
-    color: black;
-    height: 2px;
-    transition: 0s;
     text-decoration: none;
-  }
-  
-  .sandwichesMenu {
-    margin-top: 20px;
-  }
-
-  .toprow span {
-    font-size: 14px;
   }
 
   #logo-container {

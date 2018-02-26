@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Sandwich from "./Sandwich.js";
 
 
 class Navigator extends Component {
@@ -20,14 +21,9 @@ class Navigator extends Component {
               <a href="https://www.dropbox.com/s/3pukaawyxzkm85h/AdamWallis_Resume%20-%20Google%20Docs.pdf?dl=0" target="_blank" rel="noopener noreferrer">
                 <span>Resume</span>
               </a>
-            </li> 
-            <div className="sandwichesMenu">
-              <div className="sandwiches" />
-              <div className="sandwiches" /> 
-              <div className="sandwiches" />
-            </div>
+            </li>
+            <Sandwich />
           </ul>
-         
         </div>
       </nav>;
   }
