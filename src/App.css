@@ -65,7 +65,6 @@ li :hover {
   height: 64px;
   transition: 1s;
   text-decoration: none;
-
 }
 
 #contact :hover {
@@ -90,6 +89,10 @@ li :hover {
 }
 
 .sandwiches {
+  display: none;
+}
+
+.sandwichItemsDiv {
   display: none;
 }
 

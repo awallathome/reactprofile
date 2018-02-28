@@ -1,7 +1,7 @@
 @media only screen and (max-width : 710px) {
 
     /*sandwich lines*/
-    .sandwiches {
+    .sandwich {
         display: block;
         width: 25px;
         height: 2px;
@@ -9,33 +9,47 @@
         margin: 6px 0;  
     }
     
-    /*entire sandwich icon*/
-    .sandwichesMenu {
+    /*entire sandwich div*/
+    #menu {
+       
         margin-top: 20px;
         width: 200px;
+        height: 200px;
         float: right;
     }
 
-    /*sandwich links*/
-    .sandwichItems {
+    /*project and resume links*/
+    p {
+        color: black;
+        margin: 0;
         padding: 0;
         display: block;
         text-align: left;
-        margin-top: 20px;
         height: 25px;
+        
     }
 
-    span {
-        display: block;
+    #hidden {
         background-color: brown;
-        padding: 0;
+        display: none;
+        width: 140px;
+        height: 100px;
+        margin-top: 0px;
     }
 
-    .sandwichItems :hover {
-        color: black;
-        height: 25px;
-        transition: 1s;
-        text-decoration: none;
+    /*#menu:hover > #hidden {
+        display: block;
+
+    }*/
+    
+
+    .sandwichItems {
+        padding: 5px;
+    }
+
+    .sandwichResume {
+        margin: 0;
+
     }
 
 }
