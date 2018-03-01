@@ -1,5 +1,14 @@
 @media only screen and (max-width : 710px) {
 
+    /*entire sandwich div including popups*/
+    #menu {
+        margin-top: 15px;
+        width: 150px;
+        height: 400px;
+        float: right;
+    
+    }
+    
     /*sandwich lines*/
     .sandwich {
         display: block;
@@ -7,49 +16,35 @@
         height: 2px;
         background-color: black;
         margin: 6px 0;  
-    }
-    
-    /*entire sandwich div*/
-    #menu {
-       
-        margin-top: 20px;
-        width: 200px;
-        height: 200px;
-        float: right;
-    }
-
-    /*project and resume links*/
-    p {
-        color: black;
-        margin: 0;
-        padding: 0;
-        display: block;
-        text-align: left;
-        height: 25px;
         
     }
 
+    /*Conditional Styling for the popup*/
     #hidden {
-        background-color: brown;
         display: none;
+    
+    }
+
+    #block {
+        background-color: #ddd;
         width: 140px;
         height: 100px;
-        margin-top: 0px;
-    }
-
-    /*#menu:hover > #hidden {
         display: block;
-
-    }*/
-    
-
-    .sandwichItems {
-        padding: 5px;
+        opacity: .7;
+       
     }
 
-    .sandwichResume {
-        margin: 0;
+   
 
+    /*text for project and resume links*/
+    p {
+        color: black;
+        margin: 10px 0;
+        display: block;
+        text-align: left;
+        height: 15px;
+        font-size: 12px;
     }
+
 
 }

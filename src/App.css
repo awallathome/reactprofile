@@ -37,6 +37,10 @@ li {
   height: 64px;
 }
 
+.popupItems {
+  display: none;
+}
+
 #resume {
 	max-width: 90px;
 }
@@ -50,6 +54,9 @@ nav .brand-logo {
 .white {
   border-radius: 5px;
 }
+
+
+
 
 .toprow {
   position: center;
@@ -84,9 +91,7 @@ li :hover {
   color: rgba(255,255,255,.9);
 }
 
-.parallax-container .section {
-    width: 100%;
-}
+
 
 .sandwiches {
   display: none;
@@ -203,7 +208,7 @@ li :hover {
   }
  
   .toprow span {
-    font-size: 14px;
+    font-size: 20px;
   }
 
   .toprow :hover {

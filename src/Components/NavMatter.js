@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Sandwich from "./Sandwich.js";
+import { Link } from "react-router-dom";
 
 
 class Navigator extends Component {
@@ -8,19 +9,19 @@ class Navigator extends Component {
         <div className="nav-wrapper container">
           <ul className="toprow">
             <li>
-              <a href="/#" className="brand-logo">
+              <Link to="/#" className="brand-logo">
                 <span id="logo-container">Adam Wallis</span>
-              </a>
+              </Link>
             </li>
-            <li id="recentprojects">
-              <a href="recentprojects">
-                <span>Recent Projects</span>
-              </a>
+            <li >
+              <Link to="recentprojects">
+                <span id="recentprojects">Recent Projects</span>
+              </Link>
             </li>
             <li id="resume">
-              <a href="https://www.dropbox.com/s/3pukaawyxzkm85h/AdamWallis_Resume%20-%20Google%20Docs.pdf?dl=0" target="_blank" rel="noopener noreferrer">
+              <Link to="https://www.dropbox.com/s/3pukaawyxzkm85h/AdamWallis_Resume%20-%20Google%20Docs.pdf?dl=0" target="_blank" rel="noopener noreferrer">
                 <span>Resume</span>
-              </a>
+              </Link>
             </li>
             <Sandwich />
           </ul>

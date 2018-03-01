@@ -8,7 +8,7 @@ import signature from './Images/signature.jpg';
           <div className={styles.Footer} id="footer-copyright">
             <div className={styles.Footer}>
               <img src={signature} id="signature" alt="Adam Wallis made this page" />
-              <p id="copyright">&copy; 2017 Adam Wallis</p>
+              <p id="copyright">&copy; 2018 Adam Wallis</p>
             </div>
           </div>
         </footer>;
