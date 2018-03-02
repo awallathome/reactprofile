@@ -8,23 +8,24 @@ import lablocator1 from "./Images/lablocator1.jpg";
 import lablocator2 from "./Images/lablocator2.jpg";
 import lablocator3 from "./Images/lablocator3.jpg";
 import lablocator4 from "./Images/lablocator4.jpg";
-
+import './RecentProjects.css';
 
 class RecentProjects extends Component {
   render() {
-    return <div className="container">
-        <div className="row">
-          <div className="col-sm-12">
+    return <div className="projContainer" >
+        <div className="projectRow">
+          <div className="projectTitle">
             <h1>Lab Locator</h1>
+            <h6>A web app for locating nearby labs with for bloodwork. Employs Google Maps API.</h6>
           </div>
-          <div className="col-sm-6">
+          <div className="colA">
             <img src={lablocator1} alt=" unreachable" />
             <h4>
               The user enters their starting location and a prefered radius
               for the search.
             </h4>
           </div>
-          <div className="col-sm-6">
+          <div className="colB">
             <img src={lablocator2} alt=" unreachable" />
             <h4>
               Lab Locator offers a list of all labs that offer blood work in
@@ -33,8 +34,8 @@ class RecentProjects extends Component {
           </div>
         </div>
 
-        <div className="row">
-          <div className="col-sm-6">
+        <div className="projectRow">
+          <div className="colA">
             <img src={lablocator3} alt=" unreachable" />
             <h4>
               There is an admin login for adding/deleting labs from batabase
@@ -43,7 +44,7 @@ class RecentProjects extends Component {
               currently looking for more interesting log-in options.{" "}
             </h4>
           </div>
-          <div className="col-sm-6">
+          <div className="colB">
             <img src={lablocator4} alt=" unreachable" />
             <h4>
               The admin page, inaccessible without logging in, offers easy
@@ -53,31 +54,32 @@ class RecentProjects extends Component {
           </div>
         </div>
 
-        <div className="row">
-          <div className="col-sm-12">
+        <div className="projectRow">
+          <div className="projectTitle">
             <h1>On the Fly</h1>
+            <h6>A web app for realtime, confidential conversations across all platforms requireing no downloads or accounts. Employs socket.io.</h6>
           </div>
-          <div className="col-sm-6">
+          <div className="colA">
             <img src={onthefly1} alt=" unreachable" />
             <h4>
               The user is immediately joined to a unique chat room and
               prompted to enter a name they wish to use.
             </h4>
           </div>
-          <div className="col-sm-6">
+          <div className="colB">
             <img src={onthefly2} alt=" unreachable" />
             <h4>The chat area defaults to a decoy conversation.</h4>
           </div>
         </div>
-        <div className="row">
-          <div className="col-sm-6">
+        <div className="projectRow">
+          <div className="colA">
             <img src={onthefly3} alt=" unreachable" />
             <h4>
               Toggling with the 'esc' key, the can switch to an actual
               conversation.
             </h4>
           </div>
-          <div className="col-sm-6">
+          <div className="colB">
             <img src={onthefly4} alt=" unreachable" />
             <h4>
               The chat room can be created in advance of any planned meeting
@@ -87,8 +89,8 @@ class RecentProjects extends Component {
           </div>
         </div>
 
-        <div className="row">
-          <div className="col-sm-6">
+        <div className="projectRow">
+          <div className="colA">
             <img src={onthefly5} alt=" unreachable" />
             <h4>
               The Delete Chat button offers the option to remove the

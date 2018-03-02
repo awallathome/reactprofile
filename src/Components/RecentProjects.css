@@ -1,0 +1,53 @@
+.projContainer {
+  padding: 5%;
+}
+
+h1 {
+  font-size: 28px;
+  margin: 15px 0 0 0;
+}
+
+.projectRow {
+  width: 100%;
+  padding: 0;
+}
+
+.projectTitle {
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.colB {
+  margin-left: 5%;
+}
+
+.colA, .colB {
+  width: 45%;
+  display: inline-block;
+  vertical-align: top;
+
+}
+
+img {
+  width: 100%;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+h6 {
+  width: 45%;
+}
+
+@media only screen and (max-width : 800px) {
+  
+  .projContainer {
+    padding: 2% 5%;
+  }
+  
+  h1 {
+    font-size: 20px; 
+  }
+  
+}

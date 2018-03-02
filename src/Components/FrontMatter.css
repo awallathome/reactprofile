@@ -1,0 +1,160 @@
+.renderDiv {
+  margin: 0;
+  padding: 0;
+
+}
+
+h2, h3 {
+  text-align: center;
+  margin: 0;
+
+}
+
+h5 {
+  margin: 0;
+  padding: 0;
+}
+
+.blurbSection {
+  padding: 0 5%;
+  margin:  0 0 50px 0;
+  height: 200px;
+}
+
+.blurbs {
+  width: 30%;
+  display: inline-block;
+  margin-left: 20px;
+  height: 260px;
+  padding: 0 5px 10px 5px;
+  vertical-align: top; 
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 30px 5px 5px 5px;
+  background: white;
+}
+
+.contactSection {
+  margin: auto;
+  width: 90%;
+  height: 120px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 5px 5px 5px 5px;
+  background: white;
+  padding: 0 5px 10px 5px;
+}
+
+.imgSpace {
+  height: 100px;
+}
+
+h5 {
+  font-size: 20px;
+}
+
+#contact {
+  font-size: 20px;
+  color: black;
+}
+
+.material-icons {
+  color: #854;
+}
+
+@media only screen and (max-width : 1175px) {
+
+  .blurbs {
+    height: 280px;
+  }
+
+  .contactSection {
+    height: 130px;
+  }
+  
+}
+
+@media only screen and (max-width : 1078px) {
+
+  .blurbs {
+    height: 300px;
+  }
+
+}
+
+@media only screen and (max-width : 949px) {
+
+  .blurbs {
+    height: 315px;
+  }
+
+  h5 {
+    font-size: 18px;
+  }
+
+}
+
+@media only screen and (max-width : 821px) {
+
+  .blurbs {
+    margin-left: 2%;
+  }
+  
+  .blurbSection {
+    padding: 0 2%;
+ 
+  }
+
+  .contactSection {
+    width: 95%;
+  }
+
+  h5 {
+   font-size: 18px;
+ }
+
+  p {
+    font-size: 12px;
+  }
+ 
+  #contact {
+    font-size: 18px;
+  }
+
+}
+
+@media only screen and (max-width : 610px) {
+  
+  h5 {
+   font-size: 16px;
+  }
+
+  #contact {
+    font-size: 16px;
+  }
+
+}
+
+@media only screen and (max-width : 575px) {
+  
+  h5 {
+   font-size: 14px;
+  }
+
+  p {
+    font-size: 10px;
+  }
+
+  #contact {
+    font-size: 14px;
+  }
+
+  .blurbs {
+    height: 340px;
+  }
+
+  .contactSection {
+    height: 150px;
+  }
+
+}
+
+

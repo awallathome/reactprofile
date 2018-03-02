@@ -1,14 +1,14 @@
 import React, { Component } from "react";
 import Sandwich from "./Sandwich.js";
 import { Link } from "react-router-dom";
-
+import './NavMatter.css';
 
 class Navigator extends Component {
   render() {
     return <nav className="white">
         <div className="nav-wrapper container">
           <ul className="toprow">
-            <li>
+            <li >
               <Link to="/#" className="brand-logo">
                 <span id="logo-container">Adam Wallis</span>
               </Link>
