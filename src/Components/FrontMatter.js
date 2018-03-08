@@ -31,7 +31,7 @@ class FrontMatter extends Component {
 
                 <p className="light">
                   Experienced in Express, MySQL, MongoDB, Storage, User
-                  Authentication, MERN Stack, Firebase, Writing Tests, SEO,
+                  Authentication, MERN Stack, Firebase, Writing Tests, Socket.io,
                   Semantic HTML, Java. Python is next on my radar. Each
                   framework has its strengths, and finding the right one is
                   a great feeling.
