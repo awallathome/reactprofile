@@ -15,7 +15,7 @@ class App extends Component {
           <div>
             <Navigator />
             <Switch>
-              <Route exact path="/reactprofile" component={FrontMatter} />
+              <Route exact path="/" component={FrontMatter} />
               <Route exact path="/recentprojects" component={RecentProjects} />
             </Switch>
             <Footer />
