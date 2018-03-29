@@ -10,19 +10,17 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 class App extends Component {
   render() {
     return <div className="App">
-        
         <Router>
           <div>
             <Navigator />
             <Switch>
               <Route exact path="/" component={FrontMatter} />
+              <Route exact path="/reactprofile" component={FrontMatter} />
               <Route exact path="/recentprojects" component={RecentProjects} />
             </Switch>
             <Footer />
           </div>
-          
         </Router>
-        
       </div>;
   
   }
