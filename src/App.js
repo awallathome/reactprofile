@@ -5,6 +5,7 @@ import FrontMatter from "./Components/FrontMatter.js";
 import Navigator from "./Components/NavMatter.js";
 import RecentProjects from "./Components/RecentProjects.js";
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import GHAPIDemo from "./Components/GHAPIDemo.js";
 
 
 class App extends Component {
@@ -14,9 +15,10 @@ class App extends Component {
           <div>
             <Navigator />
             <Switch>
-              <Route exact path="/" component={FrontMatter} />
               <Route exact path="/reactprofile" component={FrontMatter} />
+              <Route exact path="/" component={FrontMatter} />
               <Route exact path="/recentprojects" component={RecentProjects} />
+              <Route exact path="/ghapidemo" component={GHAPIDemo} />
             </Switch>
             <Footer />
           </div>

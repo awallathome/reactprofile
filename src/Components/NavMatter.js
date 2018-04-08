@@ -6,14 +6,14 @@ import './NavMatter.css';
 class Navigator extends Component {
   render() {
     return <nav className="white">
-        <div className="nav-wrapper container">
+        <div>
           <ul className="toprow">
-            <li >
-              <Link to="/#" className="brand-logo">
+            <li>
+              <Link to="reactprofile" className="brand-logo">
                 <span id="logo-container">Adam Wallis</span>
               </Link>
             </li>
-            <li >
+            <li>
               <Link to="recentprojects">
                 <span id="recentprojects">Recent Projects</span>
               </Link>
@@ -21,6 +21,11 @@ class Navigator extends Component {
             <li id="resume">
               <Link to="https://www.dropbox.com/s/qkr9ztaimcf84r9/AdamWallis_Resume%20-%20Google%20Docs.pdf?dl=0" target="_blank" rel="noopener noreferrer">
                 <span>Resume</span>
+              </Link>
+            </li>
+            <li id="github">
+              <Link to="ghapidemo" target="_blank" rel="noopener noreferrer">
+                <span>GitHub Info</span>
               </Link>
             </li>
             <Sandwich />

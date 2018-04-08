@@ -42,9 +42,15 @@ class Sandwich extends Component {
               </div>
             </Link>
           </div>
+        
           <Link to="https://www.dropbox.com/s/qkr9ztaimcf84r9/AdamWallis_Resume%20-%20Google%20Docs.pdf?dl=0" target="_blank" rel="noopener noreferrer">
             <div className="popupItem">
               <p>Resume</p>
+            </div>
+          </Link>
+          <Link to="/ghapidemo" target="_blank" rel="noopener noreferrer">
+            <div ClassName="popupItem">
+              <p>GitHub Info</p>
             </div>
           </Link>
         </div>

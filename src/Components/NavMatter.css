@@ -5,7 +5,7 @@ ul {
 }
 
 li {
-  max-width: 300px;
+  max-width: 250px;
   margin-left: 5%;
   margin-right: 5%; 
 	position: relative;
@@ -40,10 +40,6 @@ nav .brand-logo {
 
 .white {
   border-radius: 5px;
-}
-
-.toprow {
-  position: center;
 }
 
 .toprow span {
@@ -83,7 +79,7 @@ li :hover {
   color: #444;
 }
 
-@media only screen and (max-width : 993px) {
+@media only screen and (max-width : 1040px) {
   .parallax-container .section {
     width: 100%;
     position: relative;
@@ -101,6 +97,10 @@ li :hover {
   
   #logo-container {
   font-size: 25px;
+  }
+
+  li {
+    margin-right: auto;
   }
 }
 
@@ -124,10 +124,6 @@ li :hover {
     width: 100%;
   }
 
-  li {
-    margin-left: 5px;
-  }
-
   .toprow span {
     font-size: 18px;
   }
@@ -138,7 +134,7 @@ li :hover {
 
 }
 
-@media only screen and (max-width : 710px) {
+@media only screen and (max-width : 786px) {
 
   nav a,
   nav .brand-logo {
@@ -156,25 +152,16 @@ li :hover {
   .toprow {
     position: relative;
     width: 100%;
-  }
-
-  #recentprojects {
-    display: none;
-  }
-
-  #resume {
-    display: none;
+    font-size: 20px;
   }
 
   li, a :hover {
-    
-    height: 2px;
     transition: .3s;
     
   }
  
   .toprow span {
-    font-size: 20px;
+    font-size: 14px;
   }
 
   .toprow :hover {
@@ -197,6 +184,20 @@ li :hover {
     height: 50px;
 
   }
+
+@media only screen and (max-width : 710px) {
+  #recentprojects {
+    display: none;
+  }
+
+  #resume {
+    display: none;
+  }
+
+  #github {
+    display: none;
+  }  
+}
 
 }
 

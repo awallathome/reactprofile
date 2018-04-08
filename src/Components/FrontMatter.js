@@ -48,8 +48,7 @@ class FrontMatter extends Component {
                   Web Development through UMass Amherst. I also studied
                   Theology, Philosophy, and Ethics long enough to get a MA.
                   I understand people, logic, and the reasons why we should
-                  value and improve the world. I hope you enjoy my page and
-                  a few of my photos.
+                  value and improve the world. I hope you enjoy my page. Some photos are coming soon.
                 </p>
               </div>
             </div>

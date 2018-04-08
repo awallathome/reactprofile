@@ -9,8 +9,6 @@
     
     }
 
-    
-    
     /*sandwich lines*/
     .sandwich {
         display: block;
@@ -36,7 +34,7 @@
     #block {
         background-color: #ddd;
         width: 140px;
-        height: 100px;
+        height: 160px;
         display: block;
         opacity: .7;
        
