@@ -21,7 +21,7 @@ class App extends Component {
               <Route exact path="/ghapidemo" component={GHAPIDemo} />
             </Switch>
             <Footer />
-          </div>
+          </div> 
         </Router>
       </div>;
   

@@ -37,4 +37,4 @@ class GHAPIDemo extends Component {
   }
 }
 
-export default GHAPIDemo ;
+export default GHAPIDemo;
