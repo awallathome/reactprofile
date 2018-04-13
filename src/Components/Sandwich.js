@@ -49,7 +49,7 @@ class Sandwich extends Component {
             </div>
           </Link>
           <Link to="/ghapidemo" target="_blank" rel="noopener noreferrer">
-            <div ClassName="popupItem">
+            <div className="popupItem">
               <p>GitHub Info</p>
             </div>
           </Link>

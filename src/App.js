@@ -9,9 +9,20 @@ import GHAPIDemo from "./Components/GHAPIDemo.js";
 
 
 class App extends Component {
+
+
+  componentDidMount = () => {
+    fetch("/api")
+      .then(d => d.json())
+      .then(d => {
+        console.log("D:", d);
+      });
+  };
   render() {
     return <div className="App">
-        <Router basename = {process.env.PUBLIC_URL}>
+       
+        
+        <Router basename={process.env.PUBLIC_URL}>
           <div>
             <Navigator />
             <Switch>
@@ -21,7 +32,7 @@ class App extends Component {
               <Route exact path="/ghapidemo" component={GHAPIDemo} />
             </Switch>
             <Footer />
-          </div> 
+          </div>
         </Router>
       </div>;
   

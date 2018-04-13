@@ -24,7 +24,7 @@ class Navigator extends Component {
               </Link>
             </li>
             <li id="github">
-              <Link to="ghapidemo" target="_blank" rel="noopener noreferrer">
+              <Link to="ghapidemo" rel="noopener noreferrer">
                 <span>GitHub Info</span>
               </Link>
             </li>
