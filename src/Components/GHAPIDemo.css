@@ -18,3 +18,14 @@
   margin-bottom: 10px;
   display: block;
 }
+
+.userName {
+  max-width: 300px;
+  clear: right;
+  color: black;
+}
+
+.form {
+  max-width: 20%;
+  padding-left: 25px;
+}

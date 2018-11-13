@@ -14,9 +14,9 @@ class Navigator extends Component {
               </Link>
             </li>
             <li>
-              <Link to="recentprojects">
+              {/*<Link to="recentprojects">
                 <span id="recentprojects">Recent Projects</span>
-              </Link>
+              </Link>*/}
             </li>
             <li id="resume">
               <a href="https://www.dropbox.com/s/2b1quvvdw6lw6xv/AdamWallis_Resume%20-%20Google%20Docs.pdf?dl=0" target="blank" rel="noopener noreferrer">

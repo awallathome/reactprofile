@@ -18,8 +18,7 @@ class FrontMatter extends Component {
 
                 <p className="light">
                   HTML/CSS, JavaScript, jQuery, Responsive Design,
-                  Materialize, Bootstrap , Handlebars, React.js, and other
-                  odds and ends...{" "}
+                  Materialize, Bootstrap , React.js, Angular, and other odds and ends...{" "}
                 </p>
               </div>
 

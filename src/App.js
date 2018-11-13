@@ -9,19 +9,20 @@ import GHAPIDemo from "./Components/GHAPIDemo.js";
 
 
 class App extends Component {
+  constructor(props) {
+    super(props);
 
-
-  componentDidMount = () => {
-    fetch("/api")
-      .then(d => d.json())
-      .then(d => {
-        console.log("D:", d);
-      });
+    this.state = { data: "false" };
+  }
+  //not all browsers support fetch; find alternatives useful for the same call
+  componentDidMount = (req, d) => {
+    fetch("/api").then(d => {
+      console.log("D:", d);
+    });
   };
   render() {
-    return <div className="App">
-       
-        
+    return (
+      <div className="App">
         <Router basename={process.env.PUBLIC_URL}>
           <div>
             <Navigator />
@@ -34,8 +35,8 @@ class App extends Component {
             <Footer />
           </div>
         </Router>
-      </div>;
-  
+      </div>
+    );
   }
 }
 
